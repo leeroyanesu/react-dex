@@ -1,0 +1,1667 @@
+[
+  {
+    "symbol": "SOME",
+    "name": "Something",
+    "contractAddress": "SP3MRT36YWK7R0SKFCQ1TDJB3Y3XBAVRFXPYBQ33E.Something-v420",
+    "imageUrl": "https://raw.githubusercontent.com/mafakajan/something/main/Stacks_Logo_png(1).png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.00022319908040736673",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "Something",
+    "percent_change_24h": "5.658430938158738",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://x.com/@somethingSTX",
+      "discord": "discord.gg/hxsXCjHuQe",
+      "telegram": "https://t.me/SomethingNotNothing"
+    }
+  },
+  {
+    "symbol": "ROCK",
+    "name": "Rock",
+    "contractAddress": "SP4M2C88EE8RQZPYTC4PZ88CE16YGP825EYF6KBQ.stacks-rock",
+    "imageUrl": "https://bafybeifpgpxwrtgumuy7d7qlhxynvoixpva4m2toxkcr2jssix5gwqc4rq.ipfs.dweb.link/QmWFjBD56Xp9btmi6K8xNB6Sc5VQ9LRB1xfxfKa44pNvJW",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "8.207408316646696e-7",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "rock",
+    "percent_change_24h": "3.131092669069995",
+    "socialLinks": {
+      "website": "https://stacksrock.com",
+      "twitter": "https://x.com/rockcoinstx",
+      "discord": "discord.gg/myhAt3Rr6Z",
+      "telegram": "http://t.me/RockCoinSTX"
+    }
+  },
+  {
+    "symbol": "VELAR",
+    "name": "Velar",
+    "contractAddress": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.velar-token",
+    "imageUrl": "https://raw.githubusercontent.com/velar-be/asset-hosting/main/velar.jpg",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "0.07426203254731381",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "velar",
+    "percent_change_24h": "7.90350249",
+    "socialLinks": {
+      "website": "https://velar.com/",
+      "twitter": "https://twitter.com/VelarBTC",
+      "discord": "https://discord.gg/velarbtc",
+      "telegram": "https://t.me/velarofficial"
+    }
+  },
+  {
+    "symbol": "MICK",
+    "name": "Stakemouse",
+    "contractAddress": "SP2Y8T3TR3FKH3Y2FPZVNQAEKNJXKWVS4RVQF48JE.stakemouse",
+    "imageUrl": "https://mickey-public.s3.eu-central-1.amazonaws.com/coin.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "1.1065774906986583e-8",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "stakemouse",
+    "percent_change_24h": "-2.750115886449888",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "LONG",
+    "name": "LONGcoin",
+    "contractAddress": "SP265WBWD4NH7TVPYQTVD23X3607NNK4484DTXQZ3.longcoin",
+    "imageUrl": "https://storage.googleapis.com/longcoin/LONGcoin-image.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "4.5927787138342325e-7",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "longcoin",
+    "percent_change_24h": "-0.3285019884654549",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "PEPE",
+    "name": "Pepe Coin",
+    "contractAddress": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.tokensoft-token-v4k68639zxz",
+    "imageUrl": "https://bafkreifq2bezvmjwfztjt4s3clt7or43kewxtg4ntbqur6axnh5qchkemu.ipfs.nftstorage.link",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.00006622237091360497",
+    "decimal": "u3",
+    "tokenDecimalNum": 1000,
+    "assetName": "tokensoft-token",
+    "percent_change_24h": "2.4765912084752455",
+    "socialLinks": {
+      "website": "https://www.pepecoins.io/",
+      "twitter": "https://twitter.com/PepeCoinSTX",
+      "discord": "https://discord.com/invite/W99GuU7KWH",
+      "telegram": "https://t.me/PepeCoinBTC"
+    }
+  },
+  {
+    "symbol": "$ROO",
+    "name": "Kangaroo the Jumping Coin",
+    "contractAddress": "SP2C1WREHGM75C7TGFAEJPFKTFTEGZKF6DFT6E2GE.kangaroo",
+    "imageUrl": "https://roo-stx.com/images/55e88819c85e30c0e7cb4df70853adb1.png",
+    "timestamp": "2024-03-24T21:46:14.775Z",
+    "price": "0.043717996309355266",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "kangaroo",
+    "percent_change_24h": "3.9489118711697815",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://x.com/roocoinbtc",
+      "discord": "http://app.console.xyz/c/roo",
+      "telegram": "http://t.me/roomobofficial"
+    }
+  },
+  {
+    "symbol": "WELSH",
+    "name": "Welshcorgicoin",
+    "contractAddress": "SP3NE50GEXFG9SZGTT51P40X2CKYSZ5CC4ZTZ7A2G.welshcorgicoin-token",
+    "imageUrl": "https://raw.githubusercontent.com/Welshcorgicoin/Welshcorgicoin/main/logos/welsh_tokenlogo.png",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "0.0023388965922420046",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "welshcorgicoin",
+    "percent_change_24h": "-5.80278064",
+    "socialLinks": {
+      "website": "https://www.welshtoken.org/",
+      "twitter": "https://https://x.com/Welsh_Community",
+      "discord": "https://discord.gg/GnNa6rRN2T",
+      "telegram": "https://t.me/WelshPortal"
+    }
+  },
+  {
+    "symbol": "LEO",
+    "name": "Leo",
+    "contractAddress": "SP1AY6K3PQV5MRT6R4S671NWW2FRVPKM0BR162CT6.leo-token",
+    "imageUrl": "https://token-meta.s3.eu-central-1.amazonaws.com/icon.png",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "0.0005542742187560329",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "leo",
+    "percent_change_24h": "-10.25712928",
+    "socialLinks": {
+      "website": "https://www.leothecat.io/",
+      "twitter": "https://x.com/leocoinstx",
+      "discord": "https://discord.gg/H4MuZdQYV4",
+      "telegram": "https://t.me/+5iIROZv5joBjZmJl"
+    }
+  },
+  {
+    "symbol": "stSTX",
+    "name": "Stacked STX Token",
+    "contractAddress": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.ststx-token",
+    "imageUrl": "https://raw.githubusercontent.com/VelarBTC/token-images/main/stSTX.svg",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "1.9240826307470278",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "ststx",
+    "percent_change_24h": "0.397136",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "aeUSDC",
+    "name": "Allbridge USDC",
+    "contractAddress": "SP3Y2ZSH8P7D50B0VBTSX11S7XSG24M1VB9YFQA4K.token-aeusdc",
+    "imageUrl": "https://allbridge-assets.web.app/320px/ETH/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.svg",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "0.9999314802830253",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "aeUSDC",
+    "percent_change_24h": "0.06442434",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "aBTC",
+    "name": "Bridged BTC",
+    "contractAddress": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.token-abtc",
+    "imageUrl": "https://token-images.alexlab.co/token-abtc",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "91023.81196207053",
+    "decimal": "u8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "bridged-btc",
+    "percent_change_24h": "3.11141629",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "sUSDT",
+    "name": "sUSDT",
+    "contractAddress": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.token-susdt",
+    "imageUrl": "https://cdn.alexlab.co/logos/sUSDT.png",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "1.0005447142113186",
+    "decimal": "u8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "bridged-usdt",
+    "percent_change_24h": "-0.00013543",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "STX",
+    "name": "Stacks",
+    "contractAddress": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.wstx",
+    "imageUrl": "https://raw.githubusercontent.com/VelarBTC/token-images/main/stx.jpg",
+    "timestamp": "2024-11-14T13:28:08.616Z",
+    "price": "1.9240826307470278",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "stx",
+    "percent_change_24h": "0.397136",
+    "imageUrlBackup": "https://raw.githubusercontent.com/velar-be/asset-hosting/main/stx.jpg",
+    "socialLinks": {
+      "website": "https://www.stacks.co/",
+      "twitter": "https://twitter.com/Stacks",
+      "discord": "https://discord.gg/5DJaBrf",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "ODIN",
+    "name": "ODIN Coin",
+    "contractAddress": "SP2X2Z28NXZVJFCJPBR9Q3NBVYBK3GPX8PXA3R83C.odin-tkn",
+    "imageUrl": "https://token-metadat.s3.eu-central-1.amazonaws.com/logo.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.000027919632336956547",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "odin",
+    "percent_change_24h": "0.3911535437959583",
+    "socialLinks": {
+      "website": "https://vikingswap.io/",
+      "twitter": "https://x.com/GodTheBtc?t=Qo8BJWKeaZj_4VTPgsKsIQ&s=09",
+      "discord": "",
+      "telegram": "https://t.me/godthebtc"
+    }
+  },
+  {
+    "symbol": "sODIN",
+    "name": "Liquid Staked Odin",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-odin",
+    "imageUrl": "https://www.charisma.rocks/liquid-staked-odin.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.000018998965198452413",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "liquid-staked-odin",
+    "percent_change_24h": "1.4041677594776887",
+    "socialLinks": {
+      "website": "https://vikingswap.io/",
+      "twitter": "https://x.com/viking_swap?t=3ToeOiPFTE2dVXW9XYzQpQ&s=09",
+      "discord": "",
+      "telegram": "https://t.me/viking_swap"
+    }
+  },
+  {
+    "symbol": "sROO",
+    "name": "Liquid Staked Roo v2",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-roo-v2",
+    "imageUrl": "https://www.charisma.rocks/liquid-staked-roo.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.0395315758578227",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "liquid-staked-token",
+    "percent_change_24h": "5.753900474494368",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "sWELSH",
+    "name": "Liquid Staked Welsh v2",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-welsh-v2",
+    "imageUrl": "https://raw.githubusercontent.com/Welshcorgicoin/Welshcorgicoin/main/logos/welsh_tokenlogo.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.0024581972703832155",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "liquid-staked-token",
+    "percent_change_24h": "1.4041677594776911",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Hat",
+    "name": "Hat",
+    "contractAddress": "SP8FRWVKE42DY9XW26SGJ7XPWGVYX9M3FG7KTZNX.Hat",
+    "imageUrl": "https://www.hatonstacks.com/icon.jpg",
+    "timestamp": "2024-05-21T17:14:06.321Z",
+    "price": "0.009615064153726732",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "Hat",
+    "percent_change_24h": "1.4041677594776845",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "HASHIKO",
+    "name": "Hashiko",
+    "contractAddress": "SP28NB976TJHHGF4218KT194NPWP9N1X3WY516Z1P.Hashiko",
+    "imageUrl": "https://storage.googleapis.com/hashiko/hashiko_token/HashikoCoin.png",
+    "timestamp": "2024-05-21T17:09:43.592Z",
+    "price": "4.712640480422398e-10",
+    "decimal": "u1",
+    "tokenDecimalNum": 1,
+    "assetName": "hashiko",
+    "percent_change_24h": "1.404167759477693",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://https://x.com/hashikostx",
+      "discord": "https://discord.com/invite/TVGF7mwjfN",
+      "telegram": "https://t.me/hashikostx"
+    }
+  },
+  {
+    "symbol": "POMBOO",
+    "name": "PomeranianBoo",
+    "contractAddress": "SP1N4EXSR8DP5GRN2XCWZEW9PR32JHNRYW7MVPNTA.PomerenianBoo-Pomboo",
+    "imageUrl": "https://bafkreicvz5fwc3if522hp2s2rkgisxfdwvazxwyrjponnr6747wd5g5pvy.ipfs.nftstorage.link",
+    "timestamp": "2024-05-21T17:08:21.611Z",
+    "price": "0.00002981802578919037",
+    "decimal": "u8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "PomeranianBoo",
+    "percent_change_24h": "-4.040591482862168",
+    "socialLinks": {
+      "website": "https://www.pomboo.io/",
+      "twitter": "https://https://x.com/PombooSTX",
+      "discord": "https://discord.com/invite/BVD8SzdV",
+      "telegram": "https://t.me/PombooSTX"
+    }
+  },
+  {
+    "symbol": "$MOONCH",
+    "name": "MoonMunch",
+    "contractAddress": "SP2D8X6NYCZR70BD72R345MBDX3ATBKFMX9X12FQ7.Munch",
+    "imageUrl": "/placeholder.jpg",
+    "timestamp": "2024-05-21T17:13:03.403Z",
+    "price": "3939.876230819915",
+    "decimal": "u5",
+    "tokenDecimalNum": 100000,
+    "assetName": "MoonMunch",
+    "percent_change_24h": "1.404167759477691",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "ROK",
+    "name": "KoreanCoin",
+    "contractAddress": "SP2JH8GH06RSV8RH5ZSXNE3ZG9D6VS50TRJ6J364Y.KoreanCoin",
+    "imageUrl": "https://github.com/pregismond/etl-data-pipelines-with-shell-airflow-kafka/assets/55430857/b05af8e3-8194-48b8-854b-6deda49b87b6",
+    "timestamp": "2024-05-21T17:11:35.452Z",
+    "price": "0",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "KoreanCoin",
+    "percent_change_24h": "0",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "NOT",
+    "name": "Nothing",
+    "contractAddress": "SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.nope",
+    "imageUrl": "https://ipfs.io/ipfs/bafkreieug75i7f74at6gailpsox52lgs2ct7zccht5nobik3giv4opkeuu",
+    "timestamp": "2024-05-21T17:14:06.321Z",
+    "price": "3.7859048391772005e-8",
+    "decimal": "u1",
+    "tokenDecimalNum": 1,
+    "assetName": "NOT",
+    "percent_change_24h": "4.601907106477537",
+    "socialLinks": {
+      "website": "https://nothingtoken.xyz/",
+      "twitter": "https://x.com/@wrappednothing",
+      "discord": "https://discord.gg/zJhtz5Rdbf",
+      "telegram": "https://t.me/+D2ObXYVQU1o2YmY0"
+    }
+  },
+  {
+    "symbol": "ALUX",
+    "name": "AluxLobs",
+    "contractAddress": "SPRSRMPJX76HQKCRMWDHB41F55P855KHNJ374M5W.aluxlobs",
+    "imageUrl": "https://rose-useful-vicuna-13.mypinata.cloud/ipfs/QmW5eYQTYvDpiEB1jHfQdYjaPrpfQLoG3WwGvWUXPevNe9",
+    "timestamp": "2024-05-28T17:47:11.665Z",
+    "price": "0.000006939481340714176",
+    "decimal": "u5",
+    "tokenDecimalNum": 100000,
+    "assetName": "AluxLobs",
+    "percent_change_24h": "1.289206532909138",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://x.com/@aluxlobs",
+      "discord": "",
+      "telegram": "https://t.co/D045as84YC"
+    }
+  },
+  {
+    "symbol": "GOATSTX",
+    "name": "memegoatstx",
+    "contractAddress": "SP2F4QC563WN0A0949WPH5W1YXVC4M1R46QKE0G14.memegoatstx",
+    "imageUrl": "https://gaia.hiro.so/hub/1KdNvLJVWXxnr8JKswBksFAv1y3hMwCYrr/Goat-logo.png",
+    "timestamp": "2024-05-28T17:51:17.289Z",
+    "price": "0.00010282576928534444",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "memegoatstx",
+    "percent_change_24h": "12.07590524368044",
+    "socialLinks": {
+      "website": "https://memegoat.io/",
+      "twitter": "https://x.com/goatcoinstx",
+      "discord": "https://discord.gg/HMuZdJE6Er",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "MWM",
+    "name": "MarioWithMoustache",
+    "contractAddress": "SP2WTE5TEWWZYCWWBH0YJP5S553PVBDXVG18ACBHC.MarioWithMoustache",
+    "imageUrl": "https://raw.githubusercontent.com/MarioWithMoustache/Mario-With-Moustache/main/Mario%20With%20Moustache%20logo.png",
+    "timestamp": "2024-05-21T17:14:06.321Z",
+    "price": "0.0000027899624297257437",
+    "decimal": "u2",
+    "tokenDecimalNum": 100,
+    "assetName": "MarioWithMoustache",
+    "percent_change_24h": "1.5156899915710595",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "ETHEREUM",
+    "name": "FrodoSaylorKeanuPepe10Inu",
+    "contractAddress": "SPPK49DG7WR1J5D50GZ4W7DYYWM5MAXSX0ZA9VEJ.FrodoSaylorKeanuPepe10Inu-token-v69",
+    "imageUrl": "https://bafybeicrn35fqesg5nlgxvkkesyddqxq5oydtecpk4fclrfe7f5lxotepm.ipfs.dweb.link",
+    "timestamp": "2024-06-03T13:54:40.359Z",
+    "price": "0.0009155565696800108",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "FrodoSaylorKeanuPepe10Inu",
+    "percent_change_24h": "-10.585205805969041",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FAWKES",
+    "name": "FawkesDAO",
+    "contractAddress": "SPK3JTBY7G5503W8NKSN99J5V89XGAQWFA4GBXG8.fawkesdao",
+    "imageUrl": "https://gaia.hiro.so/hub/14BoEpx9PUtz3aTtjcta5HjLZ7gGPC6ZpY/fawkesdao.png",
+    "timestamp": "2024-06-03T13:51:55.775Z",
+    "price": "0",
+    "decimal": "u8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "FAWKES",
+    "percent_change_24h": "0",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "KNFE",
+    "name": "DogWifKnife",
+    "contractAddress": "SP3MTMK7R8GQKYHN3XZGBFS81NSDD1YAZW305H2CS.dogwifknife",
+    "imageUrl": "https://gaia.hiro.so/hub/18stqSd7UeMj4JygjLQsSmp5ELnWB3fFRF/Screenshot-2024-05-27-at-7-36-39-PM.png",
+    "timestamp": "2024-06-09T22:05:16.126Z",
+    "price": "0.000030463159806402004",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "KNFE",
+    "percent_change_24h": "1.0643565963891977",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://x.com/wife_knfe",
+      "discord": "https://discord.gg/jstGqCtQ",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "NOCC",
+    "name": "NoCodeClarity-Token",
+    "contractAddress": "SP12JCJYJJ31C59MV94SNFFM4687H9A04Q3BHTAJM.NoCodeClarity-Token",
+    "imageUrl": "https://ipfs.io/ipfs/QmRrx5WSMsqfcoDuAzKgjj1d84s6Ttb6aVifsEfzwDqaBA",
+    "timestamp": "2024-06-09T22:12:12.376Z",
+    "price": "0.000610829592335424",
+    "decimal": "u3",
+    "tokenDecimalNum": 1000,
+    "assetName": "NoCodeClarity-Token",
+    "percent_change_24h": "0.8773716406858332",
+    "socialLinks": {
+      "website": "https://nocodeclarity.ai",
+      "twitter": "https://x.com/NoCodeClarity",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Pogo",
+    "name": "Pogo",
+    "contractAddress": "SP3J9X6APANYNVE9B9ZWB7WJADYHFJH97R6KE2MYG.Pogobtc",
+    "imageUrl": "https://raw.githubusercontent.com/vishaljoshi789/Bitiyaa-Restaurant/master/WhatsApp%20Image%202024-06-07%20at%2021.28.37_4da3918b.jpg",
+    "timestamp": "2024-06-09T22:00:42.538Z",
+    "price": "0.0000014012571644872153",
+    "decimal": "u5",
+    "tokenDecimalNum": 100000,
+    "assetName": "Pogo",
+    "percent_change_24h": "10.578845366724762",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://https://x.com/PogoCoinBTC",
+      "discord": "",
+      "telegram": "https://t.me/+VhUq2dkfb2kzMzY1"
+    }
+  },
+  {
+    "symbol": "GOLF",
+    "name": "Golf is Boring",
+    "contractAddress": "SP1CYY7BKYD60R08K734K9SC6GRZD4ZSN4WCDE5BD.golf-is-boring",
+    "imageUrl": "https://gaia.hiro.so/hub/1C7c3Rj4LRXhFq3CJW7uR3QqanHvhXoTvz/hj.jpg",
+    "timestamp": "2024-06-09T22:00:42.538Z",
+    "price": "0.000035335202903967967",
+    "decimal": "u4",
+    "tokenDecimalNum": 10000,
+    "assetName": "GOLF",
+    "percent_change_24h": "1.404167759477699",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "TREMP",
+    "name": "Doland Tremp",
+    "contractAddress": "SP3TMGZ7WTT658PA632A3BA4B1GRXBNNEN8XPZQ5X.donald-trump",
+    "imageUrl": "https://gaia.hiro.so/hub/13Z4eiPp6doBLZyK1yZr6EG8nprSJfVLxQ/Screen-Shot-2024-06-10-at-8-19-37-AM.png",
+    "timestamp": "2024-06-09T22:00:42.538Z",
+    "price": "0.00016077426193122357",
+    "decimal": "u1",
+    "tokenDecimalNum": 1,
+    "assetName": "TREMP",
+    "percent_change_24h": "-0.47156826477292857",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "DFV",
+    "name": "TheRoaringKitty",
+    "contractAddress": "SP2HQVTV14DE31XQZE84G0EA2MFQY8G49R7RBAQZ2.theroaringkitty",
+    "imageUrl": "https://gaia.hiro.so/hub/1E1znJXDfJpHBYCKPoFyapWkwTJF4Ke6YZ/G2w5X4MxQO2jIKEglnMZ4A.webp",
+    "timestamp": "2024-06-09T22:00:42.538Z",
+    "price": "0.00004362628600542982",
+    "decimal": "u3",
+    "tokenDecimalNum": 1000,
+    "assetName": "DFV",
+    "percent_change_24h": "1.7041345375921413",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Blitz",
+    "name": "Blitz",
+    "contractAddress": "SP3PGDSH8P2VJA5RX4BY0GBP867Y4C9955KX97A4V.blitz",
+    "imageUrl": "https://gaia.hiro.so/hub/1NpgSJFwmmgQzr9YeFkWmVVPxyxsy2Wwy6/Blitz-logo.jpg",
+    "timestamp": "2024-06-25T06:05:59.357Z",
+    "price": "7.251457235777492e-7",
+    "decimal": "u8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "Blitz",
+    "percent_change_24h": "123.43754890225455",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "sCHA",
+    "name": "Liquid Staked Charisma",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-charisma",
+    "imageUrl": "https://www.charisma.rocks/liquid-staked-charisma.png",
+    "timestamp": "2024-06-25T06:05:44.805Z",
+    "price": "6.240360488913958e-14",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "liquid-staked-token",
+    "percent_change_24h": "1.6479669398439556",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "SPIT",
+    "name": "HAWK THUA",
+    "contractAddress": "SP1NSCD02EE377W77JA5RHXF9S6RT6A6CA7K039DH.hawk-thua",
+    "imageUrl": "https://gaia.hiro.so/hub/1KGbedma7jYAENbnhoL3i9WiYqhnFvkbXc/Screenshot-2024-06-23-2-56-02-PM.png",
+    "timestamp": "2024-06-25T06:05:44.805Z",
+    "price": "0.00000570687478017728",
+    "decimal": "u1",
+    "tokenDecimalNum": 1,
+    "assetName": "SPIT",
+    "percent_change_24h": "1.4041677594776898",
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://x.com/spitonstacks",
+      "discord": "",
+      "telegram": "https://t.me/+ggcastShb7o0Njkx"
+    }
+  },
+  {
+    "symbol": "iQC",
+    "name": "Quiet Confidence",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.quiet-confidence",
+    "imageUrl": "https://www.charisma.rocks/indexes/quiet-confidence-logo.png",
+    "timestamp": "2024-06-25T06:05:44.805Z",
+    "price": "0.003820628254603206",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "1.4041677594776818",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "wCHA",
+    "name": "Wrapped Charisma",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.wrapped-charisma",
+    "imageUrl": "https://www.charisma.rocks/indexes/wrapped-charisma-logo.png",
+    "timestamp": "2024-06-25T06:05:44.805Z",
+    "price": "3.8654819308957474e-8",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "1.4041677594776978",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "VIKI",
+    "name": "Viking",
+    "contractAddress": "SPAAZWD8D1RXQG85HDH9NQ90DV8TGXBXS4XY02J3.vkng-token",
+    "imageUrl": "https://raw.githubusercontent.com/VIKITOKEN/Vkg/main/viking.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.00013616294406083385",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "viking",
+    "percent_change_24h": "0.24722316856067392",
+    "socialLinks": {
+      "website": "https://vikingswap.io/",
+      "twitter": "https://x.com/viking_swap?t=3ToeOiPFTE2dVXW9XYzQpQ&s=09",
+      "discord": "",
+      "telegram": "https://t.me/viking_swap"
+    }
+  },
+  {
+    "symbol": "iCC",
+    "name": "Charismatic Corgi",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charismatic-corgi",
+    "imageUrl": "https://www.charisma.rocks/indexes/charismatic-corgi-logo.png",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.21636210827406677",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "1.404167759477697",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "sbtc",
+    "name": "wsbtc",
+    "contractAddress": "SP3R4MHK99JAAM0N3T0CBZRZVSVQFG1N75DQ08JSD.sbtc",
+    "imageUrl": "https://ipfs.io/ipfs/Qmc67nU3ANzq1bGLssAEGSoy51Kx6VCoyRR1jyUT72E5jg",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.0033240309940647146",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "sbtc",
+    "percent_change_24h": "1.9736568113680515",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "nakamoto",
+    "name": "nakamoto",
+    "contractAddress": "SP3R4MHK99JAAM0N3T0CBZRZVSVQFG1N75DQ08JSD.nakamoto",
+    "imageUrl": "https://ipfs.io/ipfs/Qmc67nU3ANzq1bGLssAEGSoy51Kx6VCoyRR1jyUT72E5jg",
+    "timestamp": "2024-02-07T06:41:06.817Z",
+    "price": "0.0033240309940647146",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "nakamoto",
+    "percent_change_24h": "1.9736568113680515",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "iMM",
+    "name": "Magic Mojo",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.magic-mojo",
+    "imageUrl": "https://www.charisma.rocks/indexes/magic-mojo-logo.png",
+    "timestamp": "2024-07-14T06:00:14.128Z",
+    "price": "0.0007537766340891392",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "1.4041677594777022",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "EDMUND",
+    "name": "EdmundFitzgeraldCoin",
+    "contractAddress": "SP1MJPVQ6ZE408ZW4JM6HET50S8GYTYRZ7PC6RKH7.edmundfitzgeraldcoin",
+    "imageUrl": "https://assets.hiro.so/api/mainnet/token-metadata-api/SP1MJPVQ6ZE408ZW4JM6HET50S8GYTYRZ7PC6RKH7.edmundfitzgeraldcoin/1.png",
+    "timestamp": "2024-07-14T06:00:13.577Z",
+    "price": "0.00003690400787413739",
+    "decimal": "u4",
+    "tokenDecimalNum": 10000,
+    "assetName": "EDMUND",
+    "percent_change_24h": "1.0580111086072836",
+    "swapable": true,
+    "socialLinks": {
+      "website": "https://edmund-fitzgerald-coin.notion.site/Edmund-Fitzgerald-Coin-9b09dde1326b411dbb7ee0716340391b",
+      "twitter": "http://x.com/edmundfitzcoin",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "HSHKO",
+    "name": "New Hashiko",
+    "contractAddress": "SP28NB976TJHHGF4218KT194NPWP9N1X3WY516Z1P.new-hashiko",
+    "imageUrl": "https://gaia.hiro.so/hub/1NjjWAuUCVjQG9z9dSKNPtkpmkHCMbwrGT/newhashiko.png",
+    "timestamp": "2024-07-14T06:00:11.478Z",
+    "price": "5.066539648235308e-8",
+    "decimal": "u6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "HSHKO",
+    "percent_change_24h": "-4.850849788003791",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FUJI",
+    "name": "Fuji Apples",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.fuji-apples",
+    "imageUrl": "https://www.charisma.rocks/stations/fuji-apples.png",
+    "timestamp": "2024-07-17T17:34:40.785Z",
+    "price": "9.499159955659417e-12",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "-48.555995566081826",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "IRON",
+    "name": "Iron Ingots",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.iron-ingots",
+    "imageUrl": "https://www.charisma.rocks/indexes/iron-ingots-logo.png",
+    "timestamp": "2024-07-17T17:34:40.809Z",
+    "price": "4.592738229752758",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "1.404167759477691",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "GME",
+    "name": "Gamestop",
+    "contractAddress": "SPA0SZQ6KCCYMJV5XVKSNM7Y1DGDXH39A11ZX2Y8.gamestop",
+    "imageUrl": "https://gaia.hiro.so/hub/1FsssMPzzQceoTWvYM3xpDVkRHuNufd83j/gamestop-logo.png",
+    "timestamp": "2024-06-09T22:00:42.538Z",
+    "price": "0.0001542124400425003",
+    "decimal": "u4",
+    "tokenDecimalNum": 10000,
+    "assetName": "GME",
+    "percent_change_24h": "1.4921442913450467",
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FAM",
+    "name": "TheFellowshipOfTheMeme",
+    "contractAddress": "SP3SMQNVWRBVWC81SRJYFV4X1ZQ7AWWJFBQJMC724.fam",
+    "imageUrl": "https://stacksrock.com/fam.png",
+    "timestamp": "2024-07-29T16:12:47.322Z",
+    "price": "0.01778770235237371",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "TheFellowshipOfTheMeme",
+    "percent_change_24h": "-0.5681243649406693",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "CLOK10",
+    "name": "ClokTen",
+    "contractAddress": "SP32RXJSH9DX4JGMBSZG0RQS09RG2MHBCGK4H8A7D.clokten",
+    "imageUrl": "https://assets.hiro.so/api/mainnet/token-metadata-api/SP32RXJSH9DX4JGMBSZG0RQS09RG2MHBCGK4H8A7D.clokten/1.png",
+    "timestamp": "2024-07-29T16:11:52.536Z",
+    "price": "5.162385423428231e-7",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "CLOK10",
+    "percent_change_24h": "18.45772538748089",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FAIR",
+    "name": "Fair",
+    "contractAddress": "SP253J64EGMH59TV32CQXXTVKH5TQVGN108TA5TND.fair-bonding-curve",
+    "imageUrl": "https://gaia.hiro.so/hub/1M19CV7cuRSEWzdfxAhiq6KSkDqHEqfoJt/fair-logo.JPG",
+    "timestamp": "2024-08-02T13:29:11.485Z",
+    "price": "0.000006880987278495318",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "FAIR",
+    "percent_change_24h": "-0.4329078004832805",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "TEN",
+    "name": "Tenmetsu",
+    "contractAddress": "SP3QJ0MM9G8M3DSF5NEX7CEJ99NFDQ81WG17T7RMC.tenmetsu",
+    "imageUrl": "https://gaia.hiro.so/hub/1J5gdJKirX5wzXivYzUbNCWytHsaDL5hJ7/pixelcut-export-2-.png",
+    "timestamp": "2024-08-02T14:21:04.501Z",
+    "price": "0.000003697143399376864",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "TEN",
+    "percent_change_24h": "1.3752068353063251",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Beans",
+    "name": "MrBeans",
+    "contractAddress": "SP23QP2XG6Q8HQZNKGTQZR9S8PFECAGFSC94X4237.mrbeans",
+    "imageUrl": "https://gaia.hiro.so/hub/1BQw6V9vRKLDSHHYrnzLhTPyBAK7cxCFhq/White-Elegant-Minimalistic-Background-Twitter-Profile-Picture-2-.png",
+    "timestamp": "2024-08-02T14:21:04.487Z",
+    "price": "0",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "Beans",
+    "percent_change_24h": "0",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "VENCE",
+    "name": "DJ Vence",
+    "contractAddress": "SPGDF0FAF9MKMPJ36G07QAR09DT4DANRFV98RZNT.dj-vence",
+    "imageUrl": "https://assets.hiro.so/api/mainnet/token-metadata-api/SPGDF0FAF9MKMPJ36G07QAR09DT4DANRFV98RZNT.dj-vence/1.png",
+    "timestamp": "2024-08-02T14:21:04.506Z",
+    "price": "3.0133704514728325e-7",
+    "decimal": "8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "VENCE",
+    "percent_change_24h": "1.4041677594776896",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "iPP",
+    "name": "President Pepe",
+    "contractAddress": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.mr-president-pepe",
+    "imageUrl": "https://www.charisma.rocks/indexes/presidential-pepe-logo.jpg",
+    "timestamp": "2024-08-02T14:26:41.621Z",
+    "price": "0.6865252169444992",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "index-token",
+    "percent_change_24h": "5.766698531601961",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "EDLC",
+    "name": "Edelcoin",
+    "contractAddress": "SP26PZG61DH667XCX51TZNBHXM4HG4M6B2HWVM47V.edelcoin",
+    "imageUrl": "https://gaia.hiro.so/hub/1NVedaUK9KMEk8RMoM6sBn2LJ9UqHsEwC8/edlc-32.webp",
+    "timestamp": "2024-08-26T12:00:32.495Z",
+    "price": "6.947850539078353e-7",
+    "decimal": "5",
+    "tokenDecimalNum": 100000,
+    "assetName": "EDLC",
+    "percent_change_24h": "104.97588675138225",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "STONE",
+    "name": "STONE",
+    "contractAddress": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stone-bonding-curve",
+    "imageUrl": "https://gaia.hiro.so/hub/12LoFHsDCJTFSqyTGPmp6KKzAsPdTEjS6s/stone-black-square.png",
+    "timestamp": "2024-08-30T12:48:45.898Z",
+    "price": "0.017574748713872202",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "STONE",
+    "percent_change_24h": "1.125876860411307",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FTC",
+    "name": "FUCK THE CABAL",
+    "contractAddress": "SP2PGA85MN3D1YVMRJK9WCGQT09Q9EZBCM7C3VNYA.fuck-the-cabal-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/YSsFdXMv-bitcoindesigns-a-logo-of-a-crypto-coin-with-a-hand-of-a-rogue-g-7202eda9-cf2f-4313-9853-836cfa3d6305-1-.png",
+    "timestamp": "2024-08-30T15:10:11.688Z",
+    "price": "8.140155029295484e-7",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "FTC",
+    "percent_change_24h": "0.00413108683938339",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "SKULL",
+    "name": "Skullcoin",
+    "contractAddress": "SP3BRXZ9Y7P5YP28PSR8YJT39RT51ZZBSECTCADGR.skullcoin-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/CwabtYip-crypto-logo.png",
+    "timestamp": "2024-08-31T12:30:54.777Z",
+    "price": "0.000011170926148150871",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "SKULL",
+    "percent_change_24h": "-19.18686957890092",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Walter",
+    "name": "Walter",
+    "contractAddress": "SP45RYP4W83SMSCG5C7MZCM1EFVRJY4K6D0E05Z6.walter",
+    "imageUrl": "https://gaia.hiro.so/hub/1FMBfC5FpvJmjkukJvGYBWNkC7PZcKosxq/AiArtPictures-1721047280374.jpg",
+    "timestamp": "2024-09-06T15:32:51.347Z",
+    "price": "6.969140482217962e-7",
+    "tokenDecimalNum": 1,
+    "assetName": "Walter",
+    "percent_change_24h": "-4.7197606094065305",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Moist",
+    "name": "Moist Sock",
+    "contractAddress": "SPBNZD0NMBJVRYJZ3SJ4MTRSZ3FEMGGTV2YM5MFV.moist-sock-bonding-curve",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/RZtFXKCk-MoistSock.jpg",
+    "timestamp": "2024-09-06T18:44:54.701Z",
+    "price": "0.00185941180898548",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "Moist",
+    "percent_change_24h": "-0.22118054567911294",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "MOON",
+    "name": "Mooneeb",
+    "contractAddress": "SP2VGJQAB0T7R2Y9S2PJRNPDEW91CM2YCDYJGGPQS.mooneeb",
+    "imageUrl": "https://pink-added-stork-978.mypinata.cloud/ipfs/QmdMTQKYVHsK1USakRkDjKcJ9DnCfsyGm3cSQqkzJ4c9Yu",
+    "timestamp": "2024-09-13T10:12:08.992Z",
+    "price": "0.000009011134457650896",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "mooneeb",
+    "percent_change_24h": "0.008357838432268528",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "PAVOL",
+    "name": "PAVOL DUREV",
+    "contractAddress": "SP1NSCD02EE377W77JA5RHXF9S6RT6A6CA7K039DH.pavol-durev",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/cecqSqZy-5071122699216073356.jpg",
+    "timestamp": "2024-09-13T10:16:27.944Z",
+    "price": "0",
+    "tokenDecimalNum": 10,
+    "assetName": "PAVOL",
+    "percent_change_24h": "0",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "MST",
+    "name": "MoneyStack",
+    "contractAddress": "SPKMQ8QD26HS1B2E9KXWCDKRF63X0RP8BZ361QTH.moneystack-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/FvBnbDVC-MST.jpg",
+    "timestamp": "2024-09-13T10:17:18.949Z",
+    "price": "0.00004935727495092291",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "MST",
+    "percent_change_24h": "-15.900523221143397",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "THCAM",
+    "name": "ETH THCAM",
+    "contractAddress": "SP1QBKVTKP2DG8BGHQQD3KG6EBWWCB6V4X5NXQRYR.eth-thcam-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/XoBhsiAl-file.png",
+    "timestamp": "2024-09-19T19:41:14.733Z",
+    "price": "0.00012642117779950327",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "THCAM",
+    "percent_change_24h": "3.915407637753238",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "https://x.com/ETHCAMTHCAM?t=0h2ixdShfGT1ANZLKkxkqg&s=09",
+      "discord": "",
+      "telegram": "https://t.me/+5oc6kBNNPH5jYjQ1"
+    }
+  },
+  {
+    "symbol": "USDh",
+    "name": "Hermetica USDh",
+    "contractAddress": "SPN5AKG35QZSK2M8GAMR4AFX45659RJHDW353HSG.usdh-token-v1",
+    "imageUrl": "https://app.hermetica.fi/assets/usdh_logo.svg",
+    "timestamp": "2024-09-19T16:24:39.573Z",
+    "price": "1",
+    "decimal": "8",
+    "tokenDecimalNum": 100000000,
+    "assetName": "usdh",
+    "percent_change_24h": "0",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "BOOSTER",
+    "name": "BOOSTER",
+    "contractAddress": "SP345FTTDC4VT580K18ER0MP5PR1ZRP5C3Q0KYA1P.booster-bonding-curve",
+    "imageUrl": "https://gaia.hiro.so/hub/1JE8tA8g9jafC16FBG822Hwqf6dxVVNvJg/BOOSTER-logo1-800.jpg",
+    "timestamp": "2024-10-04T19:52:41.656Z",
+    "price": "0.00011366730442486843",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "BOOSTER",
+    "percent_change_24h": "32.62382674304779",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "BLEWY",
+    "name": "Blewy",
+    "contractAddress": "SP1HPB7YTZDXMZSZD51C113PQFAXKSNR0QYFFPWVC.blewy-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/PZoVWzQF-IMG-1643.png",
+    "timestamp": "2024-10-04T19:52:41.646Z",
+    "price": "0.0000034101103967706397",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "BLEWY",
+    "percent_change_24h": "-19.115065539640383",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FlatEarth",
+    "name": "Flat Earth",
+    "contractAddress": "SP3W69VDG9VTZNG7NTW1QNCC1W45SNY98W1JSZBJH.flat-earth-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/BxdQLdfT-IMG-0386.jpeg",
+    "timestamp": "2024-10-05T11:52:31.339Z",
+    "price": "0.010197937092566828",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "FlatEarth",
+    "percent_change_24h": "-17.447520690392455",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "GYAT",
+    "name": "GYATT",
+    "contractAddress": "SP739VRRCMXY223XPR28BWEBTJMA0B27DY8GTKCH.gyatt-bonding-curve",
+    "imageUrl": "https://gaia.hiro.so/hub/1MCT5aQ6QAPoNhU6RQhh3TW51278xLraqu/gyatcat.jpg",
+    "timestamp": "2024-10-05T11:53:00.879Z",
+    "price": "2.489941013058076e-7",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "GYAT",
+    "percent_change_24h": "-5.088106202968025",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "HOAX",
+    "name": "Moon Landing",
+    "contractAddress": "SP116BXQNYGH2SDF64Z68CRPKVTK93KWTVXTA2DYD.moon-landing-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/HObfvRrY-qTDZs8Vp.jpeg",
+    "timestamp": "2024-10-09T08:09:46.556Z",
+    "price": "0.0004075692683935998",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "HOAX",
+    "percent_change_24h": "0.658759032530153",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "BAO",
+    "name": "BAO",
+    "contractAddress": "SP10VQCN71BZ0CXVKH7DF2H1MEQNKG9C49R9AHGKB.bao-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/RPKCfTDH-BAO.png",
+    "timestamp": "2024-10-10T12:23:00.930Z",
+    "price": "0.000268058825648245",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "BAO",
+    "percent_change_24h": "-1.1677746379719853",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "TRUTH",
+    "name": "September 11",
+    "contractAddress": "SP2ECF9BD90CXW96XYT032MG6BQ2N6TRQ47V0D90R.september-11-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/RTwPLrXB-truth.webp",
+    "timestamp": "2024-10-10T12:23:01.057Z",
+    "price": "0.000008895842166670692",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "TRUTH",
+    "percent_change_24h": "-34.16662954756348",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "DGAF",
+    "name": "Honey Badger",
+    "contractAddress": "SP1NPDHF9CQ8B9Q045CCQS1MR9M9SGJ5TT6WFFCD2.honey-badger-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/XlNYtjWJ-IMG-4351.jpeg",
+    "timestamp": "2024-10-11T15:59:45.598Z",
+    "price": "0.03437304809272871",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "DGAF",
+    "percent_change_24h": "-1.7304210124430375",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "WEN",
+    "name": "$WEN",
+    "contractAddress": "SP25K3XPVBNWXPMYDXBPSZHGC8APW0Z21CWJ3Y3B1.wen-nakamoto-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/XLiJBFYK-wen-logo.png",
+    "timestamp": "2024-10-11T15:59:45.598Z",
+    "price": "0.0018504679427567496",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "WEN",
+    "percent_change_24h": "-6.477343095755359",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "FRESH",
+    "name": "Dry Sock",
+    "contractAddress": "SP2Z2CBMGWB9MQZAF5Z8X56KS69XRV3SJF4WKJ7J9.dry-sock-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/FZnTERSC-kb7SLKVY.jpg",
+    "timestamp": "2024-10-13T13:32:41.120Z",
+    "price": "0.0015926037634896334",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "FRESH",
+    "percent_change_24h": "1.2493175166144865",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "Clive",
+    "name": "Clive",
+    "contractAddress": "SP371690BDHK9WRH3KXXRWNK62YR8N1P5JSYGQKRM.clive-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/bFyDUeIU-IMG-8798.jpeg",
+    "timestamp": "2024-10-13T13:32:41.120Z",
+    "price": "0.000005498408117102279",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "Clive",
+    "percent_change_24h": "-4.29846910149537",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "RMFAM",
+    "name": "RiseOfTheMemeFam",
+    "contractAddress": "SP3SMQNVWRBVWC81SRJYFV4X1ZQ7AWWJFBQJMC724.riseofthememefam",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/DVQfDArB-RMFAM8.png",
+    "timestamp": "2024-10-18T17:31:32.664Z",
+    "price": "0.021764958750666086",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "RMFAM",
+    "percent_change_24h": "-10.8522970018324",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "KANGA",
+    "name": "JACKAROO",
+    "contractAddress": "SP3J2H949KF8N4EPXKB42ZQT4EFGJFEW36DX20J1D.jackaroo-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/ddaukPFu-kanga.jpg",
+    "timestamp": "2024-10-20T14:52:25.106Z",
+    "price": "0.001091532605543852",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "KANGA",
+    "percent_change_24h": "-0.9751217815376126",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "KWON",
+    "name": "dokwondesk",
+    "contractAddress": "SP253CHXESX9W66MCSN4JM2XZJBFG9NPHJE6J5JFX.dokwondesk-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/ulaIZkGA-kwon.jpg",
+    "timestamp": "2024-10-31T06:25:50.409Z",
+    "price": "0.000027363719572640224",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "KWON",
+    "percent_change_24h": "-14.247297726985062",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "MATEO",
+    "name": "MATEO",
+    "contractAddress": "SP3A4VHJM691GGAC8QHNHPCX3KGJ7DZYE6GN6882D.mateo-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/kXwUwGOk-mateo-pfp.png",
+    "timestamp": "2024-11-02T08:10:55.440Z",
+    "price": "0.0004054312264225675",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "MATEO",
+    "percent_change_24h": "-1.1387854626259157",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "TYCHU",
+    "name": "Tychu Onasch",
+    "contractAddress": "SP134ACD749QYM1J4ZTWMJ43MZH38BJB33D24DQB8.tychu-onasch-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/pmaVaBbn-tychu-logo.PNG",
+    "timestamp": "2024-11-07T05:48:12.510Z",
+    "price": "0.000009013948603996228",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "TYCHU",
+    "percent_change_24h": "2.24281338634537",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "LESS",
+    "name": "LESS",
+    "contractAddress": "SP2JCF3ME5QC779DQ2X1CM9S62VNJF44GC23MKQXK.less-bonding-curve",
+    "imageUrl": "https://gaia.hiro.so/hub/1FqPFBRapmCH3YpPYuChPq2BEB572DpTKE/less.jpg",
+    "timestamp": "2024-11-07T05:48:12.476Z",
+    "price": "0.000004742116734215299",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "LESS",
+    "percent_change_24h": "1.404167759477709",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "PNUT",
+    "name": "PNuts Freedom Farm",
+    "contractAddress": "SPXW8BXG2S88SX7C1CJ3BVFEGR51SFGRF8DMYC93.pnuts-freedom-farm-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/XwAXNhUL-PNUT.avif",
+    "timestamp": "2024-11-09T18:22:17.226Z",
+    "price": "0.001834137562019482",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "PNUT",
+    "percent_change_24h": "-19.073073792539493",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "SIM",
+    "name": "Simulation Coin",
+    "contractAddress": "SP1K8Y1JDM3MX9HNBS4MGYERRZSADVMZWASAPHPK3.simulation-coin-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/BRtApnEI-SIM-COIN-LOGO-No-background.png",
+    "timestamp": "2024-11-09T18:22:17.218Z",
+    "price": "0.0002678516182378333",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "SIM",
+    "percent_change_24h": "17.43555248279435",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "WPS",
+    "name": "World Peace Stacks",
+    "contractAddress": "SP14J806BWEPQAXVA0G6RYZN7GNA126B7JFRRYTEM.world-peace-stacks-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/jvtslHgU-peace.png",
+    "timestamp": "2024-11-10T06:15:26.875Z",
+    "price": "0.000009101488443892484",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "WPS",
+    "percent_change_24h": "-32.97985255095717",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "TURTO",
+    "name": "Turtoshi",
+    "contractAddress": "SPN7GYFCEVW1HR6CVFW3JGWSW57P1JZCZ3KSQTPT.turtoshi-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/wAJrggwd-TURTO.jpg",
+    "timestamp": "2024-11-12T15:00:26.775Z",
+    "price": "0.0000726121241810519",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "TURTO",
+    "percent_change_24h": "30.560731779600363",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  },
+  {
+    "symbol": "SAYLOR",
+    "name": "SAYLOR",
+    "contractAddress": "SP2ZHZRWAGZE2QJKTXYJ2QWKVM3BZ5HC2KC90HN1W.saylor-stxcity",
+    "imageUrl": "https://pdakhjpwkuwtadzmpnjm.supabase.co/storage/v1/object/public/token_logo/RNiuriZh-saylor.png",
+    "timestamp": "2024-11-14T07:03:41.603Z",
+    "price": "0.000002456109341052138",
+    "decimal": "6",
+    "tokenDecimalNum": 1000000,
+    "assetName": "SAYLOR",
+    "percent_change_24h": "0",
+    "swapable": true,
+    "socialLinks": {
+      "website": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": ""
+    }
+  }
+]
