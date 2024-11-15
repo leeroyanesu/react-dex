@@ -23,7 +23,7 @@ function Swap(props) {
   const { address, isConnected } = props;
   const sdk = new VelarSDK();
   const [messageApi, contextHolder] = message.useMessage();
-  const [slippage, setSlippage] = useState(2.5);
+  const [slippage, setSlippage] = useState(4);
   const [tokenOneAmount, setTokenOneAmount] = useState(null);
   const [tokenTwoAmount, setTokenTwoAmount] = useState(null);
   const [tokenOne, setTokenOne] = useState(tokenList[0]);
@@ -32,28 +32,15 @@ function Swap(props) {
   const [changeToken, setChangeToken] = useState(1);
   const [prices, setPrices] = useState(null);
   const [swapInstance,setSwapInstance] = useState(null);
+  const [convertedAmount,setConvertedAmount] = useState(0);
   
-
- 
-  // const { data, sendTransaction } = useSendTransaction({
-  //   request: {
-  //     from: address,
-  //     to: String(txDetails.to),
-  //     data: String(txDetails.data),
-  //     value: String(txDetails.value),
-  //   },
-  // });
-
-  // const { isLoading, isSuccess } = useWaitForTransaction({
-  //   hash: data?.hash,
-  // });
-
   function handleSlippageChange(e) {
     setSlippage(e.target.value);
   }
 
   async function changeAmount(e) {
     setTokenOneAmount(e.target.value);
+    const tokens = await getTokens()
     let swap = await sdk.getSwapInstance({
       account: getAddress(),
       inToken: tokenOne.symbol,
@@ -65,19 +52,41 @@ function Swap(props) {
       amount: tokenOneAmount,
       slippage: slippage
     });
+    
     setSwapInstance(swap);
     if (e.target.value && prices) {
-      setTokenTwoAmount(amount.toFixed(6));
+      setTokenTwoAmount(amount.value.toFixed(3));
     } else {
       setTokenTwoAmount(null);
     }
   }
+  const fetchExchangeRate = async()=>{
+    setConvertedAmount(0);
+    let swap = await sdk.getSwapInstance({
+      account: getAddress(),
+      inToken: tokenOne.symbol,
+      outToken: tokenTwo.symbol
+    });
+  
+    const amount = await swap.getComputedAmount({
+      type: SwapType.ONE,
+      amount: 1,
+    });
+    
+    setConvertedAmount(amount.value.toFixed(3))
+  }
+  useEffect(()=>{
+    console.log(`COnverting ${tokenOne.symbol} => ${tokenTwo.symbol}`)
+    fetchExchangeRate()
+  },[tokenOne,tokenTwo])
 
-  function switchTokens() {
+  async function switchTokens() {
     setPrices(null);
     setTokenOneAmount(null);
     setTokenTwoAmount(null);
     const one = tokenOne;
+
+    
     const two = tokenTwo;
     setTokenOne(two);
     setTokenTwo(one);
@@ -125,7 +134,7 @@ function Swap(props) {
     // }
 
     const swapOptions = await swapInstance.swap({
-      amount: 10,
+      amount: tokenOneAmount,
       type: SwapType.ONE,
     });
 
@@ -171,9 +180,7 @@ function Swap(props) {
       <div>Slippage Tolerance</div>
       <div>
         <Radio.Group value={slippage} onChange={handleSlippageChange}>
-          <Radio.Button value={0.5}>0.5%</Radio.Button>
-          <Radio.Button value={2.5}>2.5%</Radio.Button>
-          <Radio.Button value={5}>5.0%</Radio.Button>
+          <Radio.Button value={4}>4.0%</Radio.Button>
         </Radio.Group>
       </div>
     </>
@@ -231,16 +238,22 @@ function Swap(props) {
           <div className="switchButton" onClick={switchTokens}>
             <ArrowDownOutlined className="switchArrow" />
           </div>
+          
           <div className="assetOne" onClick={() => openModal(1)}>
             <img src={tokenOne.imageUrl} alt="assetOneLogo" className="assetLogo" />
             {tokenOne.symbol}
             <DownOutlined />
           </div>
+          
           <div className="assetTwo" onClick={() => openModal(2)}>
             <img src={tokenTwo.imageUrl} alt="assetTwoLogo" className="assetLogo" />
             {tokenTwo.symbol}
             <DownOutlined />
           </div>
+          <div className="priceSection">
+          <p className="price">1 {tokenOne.symbol} = {convertedAmount} {tokenTwo.symbol}</p>
+          </div>
+          
         </div>
 
         <div
@@ -249,6 +262,10 @@ function Swap(props) {
           onClick={fetchDexSwap}
         >
           Swap
+        </div>
+        <div className="logoSection">
+          <p>Powered By</p>
+          <img src="https://velar.com/static/logo-099a44a980879c6b9ea66042dc4464e7.png" className="logoVelar"/>
         </div>
       </div>
     </>

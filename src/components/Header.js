@@ -28,7 +28,7 @@ function Header(props) {
       <div className="rightH">
         <div className="connectButton" onClick={(isConnected ?()=> handleLogout():()=>connect())}>
           {isConnected
-            ? address.slice(0, 4) + "..." + address.slice(38)
+            ? address.slice(0, 6) + "..." + address.slice(35)
             : "Connect Wallet"}
         </div>
       </div>
