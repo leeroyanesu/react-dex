@@ -133,6 +133,19 @@ header {
   flex-direction: row;
   display: flex;
 }
+.chartSection {
+  border-radius: 20px;
+  border: 2px solid #564024;
+}
+.custom-tooltip {
+  background-color: #0000008c;
+  border-radius: 10px;
+  width:120px;
+  padding:10px
+}
+.custom-tooltip p {
+  font-size: 0.8rem;
+}
 .dollarAmount {
   position: absolute;
   top: 75px;
@@ -147,8 +160,8 @@ header {
 }
 .logoVelar{
   width:60px;
-  height:20px;
-  margin-left:10px
+  height:18px;
+  margin-left:10px;
 }
 .switchButton:hover {
   color: white;

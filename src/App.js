@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Swap from "./components/Swap";
 import Tokens from "./components/Tokens";
+import Chart from "./components/Chart";
 import { Routes, Route } from "react-router-dom";
 import { authenticate, showConnect } from '@stacks/connect';
 import { getAddress, userSession } from './storage/userSession';
@@ -33,6 +34,7 @@ function App() {
             element={<Swap isConnected={userSession.isUserSignedIn()} address={(userSession.isUserSignedIn()?getAddress():"")} />}
           />
           <Route path="/tokens" element={<Tokens />} />
+          <Route path="/chart" element={<Chart />} />
         </Routes>
       </div>
     </div>

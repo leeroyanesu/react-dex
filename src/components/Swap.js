@@ -8,6 +8,7 @@ import {
 import tokenList from "../tokenList.json";
 import { getAddress, userSession } from "../storage/userSession"
 import axios from "axios";
+import ReactLoading from "react-loading";
 import {
   SwapType,
   VelarSDK,
@@ -31,62 +32,72 @@ function Swap(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [changeToken, setChangeToken] = useState(1);
   const [prices, setPrices] = useState(null);
-  const [swapInstance,setSwapInstance] = useState(null);
-  const [convertedAmount,setConvertedAmount] = useState(0);
-  
+  const [swapInstance, setSwapInstance] = useState(null);
+  const [convertedAmount, setConvertedAmount] = useState(0);
+  const [convertingLoading, setConvertingLoading] = useState(false);
+
   function handleSlippageChange(e) {
     setSlippage(e.target.value);
   }
 
-  async function changeAmount(e) {
-    setTokenOneAmount(e.target.value);
-    const tokens = await getTokens()
+  async function changeAmount() {
+    let amount;
     let swap = await sdk.getSwapInstance({
       account: getAddress(),
       inToken: tokenOne.symbol,
       outToken: tokenTwo.symbol
     });
-  
-    const amount = await swap.getComputedAmount({
-      type: SwapType.ONE,
-      amount: tokenOneAmount,
-      slippage: slippage
-    });
-    
+    try {
+
+      amount = await swap.getComputedAmount({
+        type: SwapType.TWO,
+        amount: tokenOneAmount,
+        slippage: slippage
+      });
+    } catch (error) {
+      console.log(error)
+    }
+    console.log("TOken 1 "+tokenOne.symbol+" TOken 2 "+tokenTwo.symbol)
+    const token1Price = await fetch(`https://api.velar.co/prices/${tokenOne.contractAddress}`);
+    const token2Price = await fetch(`https://api.velar.co/prices/${tokenTwo.contractAddress}`);
+
+    const token1REsponse = await token1Price.json();
+    const token2REsponse = await token2Price.json();
+
     setSwapInstance(swap);
-    if (e.target.value && prices) {
-      setTokenTwoAmount(amount.value.toFixed(3));
+    if (prices) {
+      if(amount.value){
+        setTokenTwoAmount(amount?.value.toFixed(6))
+      }else{
+        setTokenTwoAmount(((token1REsponse.price * tokenOneAmount) / token2REsponse.price).toFixed(6));
+      }
+      
     } else {
       setTokenTwoAmount(null);
     }
   }
-  const fetchExchangeRate = async()=>{
+  const fetchExchangeRate = async () => {
     setConvertedAmount(0);
-    let swap = await sdk.getSwapInstance({
-      account: getAddress(),
-      inToken: tokenOne.symbol,
-      outToken: tokenTwo.symbol
-    });
-  
-    const amount = await swap.getComputedAmount({
-      type: SwapType.ONE,
-      amount: 1,
-    });
-    
-    setConvertedAmount(amount.value.toFixed(3))
+    setConvertingLoading(true)
+    const token1Price = await fetch(`https://api.velar.co/prices/${tokenOne.contractAddress}`);
+    const token2Price = await fetch(`https://api.velar.co/prices/${tokenTwo.contractAddress}`);
+
+    const token1REsponse = await token1Price.json();
+    const token2REsponse = await token2Price.json();
+
+    setConvertedAmount((token1REsponse.price / token2REsponse.price).toFixed(6));
+    setConvertingLoading(false)
   }
-  useEffect(()=>{
-    console.log(`COnverting ${tokenOne.symbol} => ${tokenTwo.symbol}`)
+  useEffect(() => {
+
     fetchExchangeRate()
-  },[tokenOne,tokenTwo])
+  }, [tokenOne, tokenTwo])
 
   async function switchTokens() {
     setPrices(null);
     setTokenOneAmount(null);
     setTokenTwoAmount(null);
     const one = tokenOne;
-
-    
     const two = tokenTwo;
     setTokenOne(two);
     setTokenTwo(one);
@@ -103,14 +114,29 @@ function Swap(props) {
     setTokenOneAmount(null);
     setTokenTwoAmount(null);
     if (changeToken === 1) {
+      if (tokenList[i].symbol === "STX") {
+        setTokenTwo(tokenList[1])
+      } else {
+        setTokenTwo(tokenList[0]);
+      }
       setTokenOne(tokenList[i]);
       fetchPrices(tokenList[i].contractAddress, tokenTwo.contractAddress);
+
     } else {
+      if (tokenList[i].symbol === "STX") {
+        setTokenTwo(tokenList[1])
+      } else {
+        setTokenTwo(tokenList[0]);
+      }
       setTokenTwo(tokenList[i]);
       fetchPrices(tokenOne.contractAddress, tokenList[i].contractAddress);
+
     }
     setIsOpen(false);
   }
+  useEffect(()=>{
+    changeAmount()
+  },[tokenOneAmount])
 
   async function fetchPrices(one, two) {
     const res = await axios.get(`https://api.velar.co/prices/${one}`);
@@ -119,19 +145,6 @@ function Swap(props) {
   }
 
   async function fetchDexSwap() {
-    // const allowance = await axios.get(
-    //   `https://api.1inch.io/v5.2/1/approve/allowance?tokenAddress=${tokenOne.address}&walletAddress=${address}`
-    // );
-
-    // if (allowance.data.allowance === "0") {
-    //   const approve = await axios.get(
-    //     `https://api.1inch.io/v5.2/1/approve/transaction?tokenAddress=${tokenOne.address}`
-    //   );
-
-    //   setTxDetails(approve.data);
-    //   console.log("not approved");
-    //   return;
-    // }
 
     const swapOptions = await swapInstance.swap({
       amount: tokenOneAmount,
@@ -145,7 +158,7 @@ function Swap(props) {
         name: appName,
         icon: appIcon,
       },
-      onFinish: data => { 
+      onFinish: data => {
         messageApi.destroy();
         if (data) {
           messageApi.open({
@@ -162,7 +175,7 @@ function Swap(props) {
           content: "Transaction Failed",
           duration: 1.5,
         });
-       },
+      },
     };
 
 
@@ -231,29 +244,34 @@ function Swap(props) {
           <Input
             placeholder="0"
             value={tokenOneAmount}
-            onChange={changeAmount}
+            onChange={(e)=>setTokenOneAmount(e.target.value)}
             disabled={!prices}
           />
           <Input placeholder="0" value={tokenTwoAmount} disabled={true} />
           <div className="switchButton" onClick={switchTokens}>
             <ArrowDownOutlined className="switchArrow" />
           </div>
-          
+
           <div className="assetOne" onClick={() => openModal(1)}>
             <img src={tokenOne.imageUrl} alt="assetOneLogo" className="assetLogo" />
             {tokenOne.symbol}
             <DownOutlined />
           </div>
-          
+
           <div className="assetTwo" onClick={() => openModal(2)}>
             <img src={tokenTwo.imageUrl} alt="assetTwoLogo" className="assetLogo" />
             {tokenTwo.symbol}
             <DownOutlined />
           </div>
           <div className="priceSection">
-          <p className="price">1 {tokenOne.symbol} = {convertedAmount} {tokenTwo.symbol}</p>
+            {
+              convertingLoading ?
+                <ReactLoading type={"balls"} color="#fff" />
+                :
+                <p className="price">1 {tokenOne.symbol} = {convertedAmount} {tokenTwo.symbol}</p>
+            }
           </div>
-          
+
         </div>
 
         <div
@@ -265,7 +283,7 @@ function Swap(props) {
         </div>
         <div className="logoSection">
           <p>Powered By</p>
-          <img src="https://velar.com/static/logo-099a44a980879c6b9ea66042dc4464e7.png" className="logoVelar"/>
+          <img src="https://velar.com/static/logo-099a44a980879c6b9ea66042dc4464e7.png" className="logoVelar" />
         </div>
       </div>
     </>
